@@ -1,0 +1,44 @@
+@font-face { 
+font-family: 'Lato'; 
+font-style: normal; 
+font-weight: 400; 
+src: url(./font/9622.ttf); 
+} 
+@font-face {
+	font-family: 'font-awesome';
+	src: url(./font/fonts/fontawesome-webfont.ttf);
+}
+body {height: 100%}
+h1 {font-family: Lato; }
+.banner {
+	background-image: url(./images/top.png); width: 1254px;height: 540px;
+	font-family: Lato; color: #FFF;
+    padding-top: 120px; padding-bottom: 140px;
+	text-align: center;
+}
+.banner h1 {font-size: 7em; }
+.banner p { padding: 20px; margin-top: 10px;}
+.banner a {border: 1px solid; border-color: #1E90FF; padding-top:15px; padding-bottom: 15px;
+	padding-left: 20px; padding-right: 20px;
+ text-decoration: none; color: #FFF; 
+}
+hr {width: 600px;}
+.text { 
+	font-family: Lato; text-align:center; margin-right:240px; margin-left:240px;
+padding-top: 120px; }
+.feauture {margin-left: 50px}
+.feauture >div {
+	 float: left; font-family: Lato; text-align: center; width: 30%; 
+padding: 10px; padding-top:240px;}
+
+.portfolio { text-align: center; font-family: Lato;}
+.portfolio img{width: 200px; height: 110px; padding: 10px; transition: width 0.5s ease }
+.img1:hover img {width: 1000px; height: 600px}
+table {margin-left: 252px; margin-left: 252px}
+.footer { height: 20%; background-image: url(./images/footer.png); font-family: Lato;color: #FFF; 
+	opacity: 0.8}
+.footer h2, p {text-align:center;}
+textarea {background: transparent; margin-left: 350px; margin-right: 350px; font-family: Lato; color: #FFF}
+input {background: transparent; margin-left: 350px; margin-right: 350px; padding: 10px}
+
+
